@@ -1,0 +1,19 @@
+There are three operators:
+
+1) Unary operator 
+    - it will required only one operand
+    exx: a++ , ++a 
+2) Binary operator
+    - it will required two operand
+    ex: a+b , a-b , a*b 
+3) Ternary operator
+    - it will required three operand
+
+
+Binary operator :
+1) Airthmatic operator : + , - , * , / , % , ** 
+2) Assignment operator : = , += , -= , *= , /= , %=
+3) Relational operator : == , <= , >= , < , > , != , === , !== 
+4) Logical operator : && , || , !
+5) Bitwise operator : & , | 
+6) Shift operator : << , >> 
