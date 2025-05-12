@@ -5,10 +5,18 @@ const changeColor = ()=>{
     console.log(colors.value);
 
 
-    box.style.height = "200px"
-    box.style.width = "200px"
+    box.style.height = "300px"
+    box.style.width = "300px"
     box.style.backgroundColor = colors.value
     box.style.margin = "100px 400px"
 
     
+}
+
+function changeRadius(){
+    let box = document.getElementById("box")
+
+    let radius = document.getElementById("radius")
+
+    box.style.borderRadius = radius.value
 }
