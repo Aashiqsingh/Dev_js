@@ -20,3 +20,12 @@ function changeRadius(){
 
     box.style.borderRadius = radius.value
 }
+
+
+const changeImage = ()=>{
+    let box = document.getElementById("box")
+    let image = document.getElementById("image")
+
+    box.style.backgroundImage = `url(${image.value})`
+    box.style.backgroundSize = "300px 300px"
+}
