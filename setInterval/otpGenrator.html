@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./otpGenrator.js"></script>
+</head>
+<style>
+    div {
+    width: 250px;
+    margin: 100px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #f9f9f9, black);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#result {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+</style>
+<body>
+
+    <div>
+    <h1>OTP Generator</h1>
+    <h2 id="result"></h2>
+</div>
+
+    <button onclick="otpGenrator()">OTP Generator</button>
+    
+</body>
+</html>
