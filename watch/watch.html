@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background: radial-gradient(circle at center, #1b1b1b, #000);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    div {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 30px 60px;
+        border: 3px solid #00f2ff;
+        border-radius: 20px;
+        box-shadow: 0 0 30px #00f2ff88;
+    }
+
+    span {
+        color: #00f2ff;
+        font-size: 5rem;
+        text-shadow: 0 0 10px #00f2ff, 0 0 20px #00f2ff;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+</style>
+
+
+<body>
+
+    <div>
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="mins">00</span>
+        <span>:</span>
+        <span id="secs">00</span>
+    </div>
+
+
+
+    <script src="./watch.js"></script>
+    
+</body>
+</html>
