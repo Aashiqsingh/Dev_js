@@ -37,5 +37,5 @@ const addStudent = (event) => {
   tbody.appendChild(tr);
 
   // Reset form fields
-  event.target.reset();
+  // event.target.reset();
 };
